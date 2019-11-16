@@ -1,0 +1,52 @@
+{
+  "manifest_version": 2,
+  "version": "1.0",
+  "name": "My theme",
+  "theme": {
+    "images": {
+      "theme_ntp_background": "lavender.jpg"
+    },
+    "colors": {
+      "frame": [
+        250,
+        185,
+        169
+      ],
+      "toolbar": [
+        252,
+        187,
+        163
+      ],
+      "ntp_text": [
+        106,
+        117,
+        184
+      ],
+      "ntp_link": [
+        106,
+        117,
+        184
+      ],
+      "ntp_section": [
+        106,
+        117,
+        184
+      ],
+      "button_background": [
+        250,
+        185,
+        169
+      ]
+    },
+    "tints": {
+      "buttons": [
+        0.3,
+        0.5,
+        0.4
+      ]
+    },
+    "properties": {
+      "ntp_background_alignment": "bottom"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "My extension",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Take and download a screenshot of the current tab",
+  "background": {
+    "persistent": false,
+    "scripts": [
+      "example_one.js"
+    ]
+  },
+  "browser_action": {
+    "default_icon": "camera.png",
+    "default_title": "Say cheese!"
+  },
+  "permissions": [
+    "activeTab",
+    "downloads"
+  ]
+}
